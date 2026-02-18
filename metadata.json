@@ -1,0 +1,8 @@
+{
+  "name": "HAIRFORCE - Elite Grooming Platform",
+  "description": "An electric, high-performance barbershop and salon booking platform with AI-powered grooming advice and immersive UI.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera"
+  ]
+}
