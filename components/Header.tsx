@@ -76,7 +76,7 @@ const Header: React.FC<HeaderProps> = ({ view, setView, onLogoClick }) => {
           <span className="text-2xl font-black text-blue-600 tracking-tighter uppercase italic">
             HAIRFORCE
           </span> */}
-          <img src={"src/logo.png"}>
+          <img src={"/images/logo.png"}>
 
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center space-x-1">
