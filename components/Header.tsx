@@ -70,7 +70,7 @@ const Header: React.FC<HeaderProps> = ({ view, setView, onLogoClick }) => {
     <header className="sticky top-0 z-[100] border-b border-slate-100 bg-white shadow-sm">
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-20">
         <button onClick={() => { onLogoClick(); closeMobileMenu(); }} className="flex items-center space-x-3 group">
-          <div className="w-32 h-32 flex items-center justify-center ">
+          <div className="w-24 h-24 flex items-center justify-center ">
             {/* <i className="fas fa-scissors text-white text-xl"></i> */}
             <img src={"/images/logo.png"}></img>
           </div>
